@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/* SUB5-COMMON - S */
+.visual {background: url(/img/branch-bg.jpg) no-repeat center center / cover;}
+.sub-sec{padding: 50px 0;}
+.sub-sec-header h4{margin-bottom: 10px; font-weight: 700;font-size: 30px;}
+.sub-sec-header p{font-size: 18px;}
+/* SUB5-COMMON - E */
+
+/* SUB5-1 - S */
+.sub-sec-header {margin-bottom: 60px;}
+.open-step-list{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.open-step-list li{
+  flex: 1;
+  padding: 25px 10px;
+  border-top: 2px solid #ee0029;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+.open-step-list span{font-weight: 700;font-size: 18px;}
+.open-step-list figure{padding: 15px 0;}
+.open-step-list figure img{width: 60px;}
+.open-step-list div h5{
+  margin-bottom: 20px;
+  font-weight: 700;font-size: 20px;
+}
+.open-step-list div p{font-size: 18px;}
+.open-step-list div em{color: #777;}
+.open-step-list-10{
+  display: flex;align-items: center;
+  font-weight: 700;
+}
+.open-terms-list li{
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+  border-left: 20px solid #ee0029;
+  text-align: left;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+.open-terms-list li + li{margin-top: 20px;}
+.open-terms-list figure{width: 80px;}
+.open-terms-list figure img{width: auto;}
+.open-terms-list h5{width: 160px; font-weight: 700;font-size: 24px;}
+.open-terms-list p{font-size: 20px;}
+/* SUB5-1 - E */
+
+/* SUB5-2  - S */
+.open-cost{background-color: #f5f5f5;}
+.open-cost table{
+  width: 100%;
+  margin-bottom: 20px;
+  border-top: 10px solid #ee0029;
+}
+.open-cost tbody{background-color: #fff;}
+.open-cost td{
+  padding: 10px;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: middle;
+}
+.open-cost td + td{border-left: 1px solid #e5e5e5;}
+.open-cost .col1{font-weight: 700;font-size: 22px;}
+.open-cost .col2{
+  width: 50%;
+  font-size: 20px; text-align: left;
+}
+.open-cost .col3{
+  width: 30%;
+  font-weight: 700; font-size: 26px; text-align: right;
+}
+.open-cost tr:last-child{background-color: #ee0029;}
+.open-cost tr:last-child td{color: #fff;}
+.open-cost .col4{font-weight: 700;font-size: 25px;}
+.open-cost span{
+  display: block;
+  font-size: 18px; text-align: right; color: #777;
+}
+
+.open-coution.sub-sec{padding: 0 0 100px;}
+.open-coution li{
+  display: flex; align-items: center;
+  font-size: 20px; line-height: 1.8; color: #333;
+}
+.open-coution li i{margin-right: 20px; color: #ee0029;}
+.open-coution li:last-child{font-weight: 700;}
+/* SUB5-2  - E */
+
+/* SUB5-3  - S */
+/* SUB5-3  - E */
+
+@media screen and (max-width:1200px) {
+  /* SUB5-1  - S */
+  /* .sub-sec-header {margin-bottom: 60px;} */
+  .open-step-list{
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* padding-bottom: 20px; */
+  }
+  .open-step-list li{
+    /* flex: 1; */
+    flex-basis: 30%;
+    /* padding: 25px 10px; */
+    /* border-top: 2px solid #ee0029; */
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); */
+  }
+  /* .open-step-list span{font-weight: 700;font-size: 18px;} */
+  /* .open-step-list figure{padding: 15px 0;} */
+  /* .open-step-list figure img{width: 60px;} */
+  .open-step-list div h5{
+    /* margin-bottom: 20px; */
+    /* font-weight: 700;font-size: 20px; */
+  }
+  /* .open-step-list div p{font-size: 18px;} */
+  /* .open-step-list div em{color: #777;} */
+  .open-step-list-10{
+    /* display: flex;align-items: center; */
+    justify-content: center;
+    /* font-weight: 700; */
+  }
+  .open-terms-list li{
+    /* display: flex; */
+    /* gap: 20px; */
+    /* padding: 20px 50px; */
+    /* border-left: 20px solid #ee0029; */
+    /* text-align: left; */
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); */
+  }
+  /* .open-terms-list li + li{margin-top: 20px;} */
+  /* .open-terms-list figure{width: 80px;} */
+  /* .open-terms-list figure img{width: auto;} */
+  /* .open-terms-list h5{width: 160px; font-weight: 700;font-size: 24px;} */
+  /* .open-terms-list p{font-size: 20px;} */
+	/* SUB5-1  - E */
+
+  /* SUB5-2  - S */
+  /* 변경사항 없음 */
+  /* SUB5-2  - E */
+}
+
+@media screen and (max-width:780px) {
+  /* SUB5-1 - S */
+  .open-step-list li{flex-basis: 100%;}
+  .open-terms-list li{flex-direction: column;}
+  .open-terms-list h5{font-size: 20px;}
+  .open-terms-list p{font-size: 18px;}
+  /* SUB5-1 - E */
+
+  /* SUB5-2  - S */
+  /* 변경사항 없음 */
+  /* SUB5-2  - E */
+}
