@@ -176,7 +176,7 @@
   content: "";
   width: 30px; height: 31px;
   padding-right: 5px;
-  background: url(/img/f_tel.png) no-repeat left center;
+  background: url(/pp2/img/f_tel.png) no-repeat left center;
 }
 .footer .f-menu{
   display: flex; justify-content: space-between;
@@ -435,7 +435,7 @@
     /* align-items: center; */
     /* width: 100%; */
     height: 400px;
-    /* background: url(/img/about-img.jpg) no-repeat center center / cover; */
+    /* background: url(/pp2/img/about-img.jpg) no-repeat center center / cover; */
   }
   /* .about.sec{padding: 0 20px;} */
   .about .sec-header{
@@ -465,7 +465,7 @@
   /* .about-wrap .about-wrap-tit::before{
     content: "";
     height: 60px;
-    background-image: url(/img/about-icon.png);
+    background-image: url(/pp2/img/about-icon.png);
   } */
   /* .about-wrap .about-wrap-list:nth-child(1) .about-wrap-tit::before{width: 116px;} */
   /* .about-wrap .about-wrap-list:nth-child(2) .about-wrap-tit::before{width: 89px;background-position-x: -116px;} */
@@ -558,7 +558,7 @@
     /* display: flex; justify-content: center; align-items: center; */
     height: 350px;
     /* text-align: center; */
-    /* background: url(/img/consulting-bg.jpg) no-repeat center center / cover; */
+    /* background: url(/pp2/img/consulting-bg.jpg) no-repeat center center / cover; */
   }
   /* .consulting .more:hover i{transform: rotate(-180deg);} */
   /* CONSULTING - E */
@@ -656,7 +656,7 @@
     /* content: ""; */
     /* width: 30px; height: 31px; */
     /* padding-right: 5px; */
-    /* background: url(/img/f_tel.png) no-repeat left center; */
+    /* background: url(/pp2/img/f_tel.png) no-repeat left center; */
   }
   .footer .f-menu{
     /* display: flex; */
