@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* SUB3-COMMON - S */
-.visual {background: url(/img/app-visual.jpg) no-repeat center center / cover;}
+.visual {background: url(/pp2/img/app-visual.jpg) no-repeat center center / cover;}
 .sub-sec h4{font-weight: 700;font-size: 35px;}
 .sub-sec h4 em{font-size: 55px;}
 /* SUB3-COMMON - E */
@@ -10,7 +10,7 @@
 .app-intro{padding: 50px 0; background-color: #f2f2f2;}
 .app-intro .sub-inner{
   padding: 50px;
-  background: url(/img/app-intro.png) no-repeat center center / contain;
+  background: url(/pp2/img/app-intro.png) no-repeat center center / contain;
 }
 .app-intro-txt{
   display: flex; flex-direction: column; align-items: flex-start;
@@ -53,7 +53,7 @@
 .app-sale-oder li{
   width: 160px;
   margin: 30px 20px; padding-top: 130px;
-  background: url(/img/app-sale-number.png) no-repeat;
+  background: url(/pp2/img/app-sale-number.png) no-repeat;
 }
 .app-sale-oder li:nth-child(2){background-position-x: -178px;}
 .app-sale-oder li:nth-child(3){background-position-x: -363px;}
@@ -67,7 +67,7 @@
 .e-intro .e-intro-txt h4{
   padding: 140px 0;
   text-align: left;
-  background: url(/img/e-img.png) no-repeat center center / contain;
+  background: url(/pp2/img/e-img.png) no-repeat center center / contain;
 }
 .e-intro .e-intro-txt h4 span{background-color: #fb0;}
 .e-intro .e-intro-txt h4 > em{display: block;}
@@ -83,9 +83,9 @@
   background-position: center top;
 }
 .e-intro .e-intro-txt li + li{border-left: 1px solid #fff;}
-.e-intro .e-intro-txt li:nth-child(1){background-image: url(/img/e-img-icon1.png);}
-.e-intro .e-intro-txt li:nth-child(2){background-image: url(/img/e-img-icon2.png);}
-.e-intro .e-intro-txt li:nth-child(3){background-image: url(/img/e-img-icon3.png);}
+.e-intro .e-intro-txt li:nth-child(1){background-image: url(/pp2/img/e-img-icon1.png);}
+.e-intro .e-intro-txt li:nth-child(2){background-image: url(/pp2/img/e-img-icon2.png);}
+.e-intro .e-intro-txt li:nth-child(3){background-image: url(/pp2/img/e-img-icon3.png);}
 .e-intro .e-intro-txt li em{font-weight: 700; font-size: 30px;}
 .e-intro .e-intro-txt li p{font-size: 20px;}
 .e-intro .e-intro-txt li p span{font-weight: 700;color: #ee0029;}
@@ -131,7 +131,7 @@
   /* .app-intro{padding: 50px 0; background-color: #f2f2f2;} */
   .app-intro .sub-inner{
     /* padding: 50px; */
-    /* background: url(/img/app-intro.png) no-repeat center center / contain; */
+    /* background: url(/pp2/img/app-intro.png) no-repeat center center / contain; */
   }
   .app-intro-txt{
     /* display: flex; flex-direction: column; align-items: flex-start; */
@@ -180,7 +180,7 @@
   .app-sale-oder li{
     /* width: 160px; */
     /* margin: 30px 20px; padding-top: 130px; */
-    /* background: url(/img/app-sale-number.png) no-repeat; */
+    /* background: url(/pp2/img/app-sale-number.png) no-repeat; */
   }
   /* .app-sale-oder li:nth-child(2){background-position-x: -178px;} */
   /* .app-sale-oder li:nth-child(3){background-position-x: -363px;} */
@@ -194,7 +194,7 @@
   .e-intro .e-intro-txt h4{
     padding: 20px 0 400px;
     text-align: center;
-    background: url(/img/e-img-780.jpg) no-repeat center bottom / contain;
+    background: url(/pp2/img/e-img-780.jpg) no-repeat center bottom / contain;
   }
   /* .e-intro .e-intro-txt h4 span{background-color: #fb0;} */
   .e-intro .e-intro-txt h4 > em{display: inline-block;}
@@ -210,9 +210,9 @@
     /* background-position: center top; */
   }
   /* .e-intro .e-intro-txt li + li{border-left: 1px solid #fff;} */
-  /* .e-intro .e-intro-txt li:nth-child(1){background-image: url(/img/e-img-icon1.png);} */
-  /* .e-intro .e-intro-txt li:nth-child(2){background-image: url(/img/e-img-icon2.png);} */
-  /* .e-intro .e-intro-txt li:nth-child(3){background-image: url(/img/e-img-icon3.png);} */
+  /* .e-intro .e-intro-txt li:nth-child(1){background-image: url(/pp2/img/e-img-icon1.png);} */
+  /* .e-intro .e-intro-txt li:nth-child(2){background-image: url(/pp2/img/e-img-icon2.png);} */
+  /* .e-intro .e-intro-txt li:nth-child(3){background-image: url(/pp2/img/e-img-icon3.png);} */
   /* .e-intro .e-intro-txt li em{font-weight: 700; font-size: 30px;} */
   /* .e-intro .e-intro-txt li p{font-size: 20px;} */
   /* .e-intro .e-intro-txt li p span{font-weight: 700;color: #ee0029;} */
@@ -257,7 +257,7 @@
   /* SUB3-1 - S */
   .app-intro .sub-inner{
     padding: 30px 20px 400px;
-    background: url(/img/app-intro-780.png) no-repeat center bottom ;
+    background: url(/pp2/img/app-intro-780.png) no-repeat center bottom ;
   }
   .app-intro-txt{
     align-items: center;

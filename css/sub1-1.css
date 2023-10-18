@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* SUB1-COMMON - S */
-.visual {background: url(/img/sub1-bg.jpg) no-repeat center center / cover;}
+.visual {background: url(/pp2/img/sub1-bg.jpg) no-repeat center center / cover;}
 section {font-size: 22px;}
 .sub-sec{margin-bottom: 50px;}
 /* SUB1-COMMON - E */
@@ -13,7 +13,7 @@ section {font-size: 22px;}
 }
 .intro{
   padding: 100px 0;
-  background-image: url(/img/sub1-1-img.jpg);
+  background-image: url(/pp2/img/sub1-1-img.jpg);
   background-attachment: fixed;
 }
 .intro .intro-txt p{

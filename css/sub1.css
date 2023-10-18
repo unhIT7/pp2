@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 /* SUB1-COMMON - S */
-.visual {background: url(/img/sub1-bg.jpg) no-repeat center center / cover;}
+.visual {background: url(/pp2/img/sub1-bg.jpg) no-repeat center center / cover;}
 /* SUB1-COMMON - E */
 
 /* SUB1-1 - S */
 .intro{
   padding: 100px 0;
-  background-image: url(/img/sub1-1-img.jpg);
+  background-image: url(/pp2/img/sub1-1-img.jpg);
   background-attachment: fixed;
 }
 .intro .intro-txt p{
@@ -161,10 +161,10 @@
 }
 .character-face-swiper {width: 100%;height: 600px;}
 .character-face-swiper .swiper-slide{background: no-repeat center center;}
-.character-face-swiper .slide1{background-image: url(/img/ddogi-move.gif);}
-.character-face-swiper .slide2{background-image: url(/img/ddogi-emo.png);}
-.character-face-swiper .slide3{background-image: url(/img/hamgu-move.gif);}
-.character-face-swiper .slide4{background-image: url(/img/hamgu-emo.png);}
+.character-face-swiper .slide1{background-image: url(/pp2/img/ddogi-move.gif);}
+.character-face-swiper .slide2{background-image: url(/pp2/img/ddogi-emo.png);}
+.character-face-swiper .slide3{background-image: url(/pp2/img/hamgu-move.gif);}
+.character-face-swiper .slide4{background-image: url(/pp2/img/hamgu-emo.png);}
 .character-face-swiper .slide-nav{
   --swiper-navigation-size: 40px;
   color: #d16870!important;
@@ -354,10 +354,10 @@
   }
   /* .character-face-swiper {width: 100%;height: 600px;} */
   /* .character-face-swiper .swiper-slide{background: no-repeat center center;} */
-  /* .character-face-swiper .slide1{background-image: url(/img/ddogi-move.gif);} */
-  /* .character-face-swiper .slide2{background-image: url(/img/ddogi-emo.png);} */
-  /* .character-face-swiper .slide3{background-image: url(/img/hamgu-move.gif);} */
-  /* .character-face-swiper .slide4{background-image: url(/img/hamgu-emo.png);} */
+  /* .character-face-swiper .slide1{background-image: url(/pp2/img/ddogi-move.gif);} */
+  /* .character-face-swiper .slide2{background-image: url(/pp2/img/ddogi-emo.png);} */
+  /* .character-face-swiper .slide3{background-image: url(/pp2/img/hamgu-move.gif);} */
+  /* .character-face-swiper .slide4{background-image: url(/pp2/img/hamgu-emo.png);} */
   .character-face-swiper .slide-nav{
     /* --swiper-navigation-size: 40px; */
     /* color: #d16870!important; */
