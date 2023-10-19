@@ -1,3 +1,21 @@
+function navigo (){
+  const header = document.querySelector('header');
+  const visual = document.querySelector('.visual');
+  const visualHeight = visual.clientHeight;
+  document.addEventListener('scroll', onScroll, { passive: true });
+  function onScroll () {
+    const scrollposition = pageYOffset;
+    const nav = document.querySelector('nav');
+    if (visualHeight <= scrollposition){
+      header.classList.add('fix');
+    }
+    else {
+      header.classList.remove('fix');
+    }
+  } 
+}
+navigo()
+
 const mobileMenu = document.querySelector('.mobile-btn');
 
 mobileMenu.onclick = () => { mobileMenu.classList.toggle('on'); };

@@ -9,13 +9,22 @@
   position: absolute; left: 0; top: 0; z-index: 1000;
   background-color: rgba(0, 0, 0, 0.1);
 }
+.header.fix {
+  height: 80px;
+  background-color: #fff;
+}
 .header .inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%; height: 100px;
 }
-.header .logo{width: 215px;height: 40px;}
+.header.fix .inner{height: 80px;}
+.header .logo{
+  width: 215px;height: 42px;
+  background: url(/img/f_logo.png) no-repeat center center / contain;
+}
+.header.fix .logo{background-image: url(/img/logo-color.png);}
 
 /* GNB - S */
 .gnb{
@@ -30,6 +39,7 @@
   position: absolute; left: 0;top: 100px;
   transition: all 0.3s;
 }
+.header.fix .gnb::after{top: 80px;}
 .gnb > ul{
   display: flex; justify-content: center;
   width: 100%;max-width: 720px;
@@ -44,12 +54,19 @@
   font-weight: 700; font-size: 20px; color: #fff;
   transition: all 0.3s;
 }
+.header.fix .gnb .depth1 > a{color: #111;}
 .gnb .depth2{
-  display: none;
-  width: 100%; height: 220px;
+  visibility: hidden;
+  width: 100%; height: 0px;
   padding-top: 20px;
   font-weight: 400; font-size: 18px; line-height: 37px; color: #777; text-align: center;
   position: absolute; left: 0; top: 100px; z-index: 1000;
+  transition: all 0.3s;
+}
+.header.fix .gnb .depth2{top: 90px;}
+.gnb .depth2 li{
+  visibility: hidden;
+  transition: all 0.3s;
 }
 .gnb .depth2 li::before{
   content: "";
@@ -60,10 +77,29 @@
 }
 .gnb:hover::after{height: 220px;}
 .gnb .depth1:hover > a{color: #ee0029;}
-.gnb:hover .depth2{display: block;}
+.header.fix .gnb .depth1:hover > a{color: #ee0029;}
+.gnb:hover .depth2{
+  visibility: visible;
+  height: 220px;
+}
+.gnb:hover .depth2 li{visibility: visible;}
 .depth1:hover .depth2{background-color: #ffeded;}
 .depth1:hover .depth2 li::before{display: block;}
 .gnb .depth2 li:hover a{color: #ee0029;}
+
+.fix {
+  position:fixed;
+  animation: down 0.5s ease
+}
+
+@keyframes down {
+  0%{
+    transform: translateY(-50px)
+  }
+  100%{
+    transform: translateY(0px)
+  }
+}
 /* GNB - E */
 
 /* TNB - S */
