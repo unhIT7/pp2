@@ -107,6 +107,7 @@
   display: flex;
   font-weight: 200; color: #fff;
 }
+.header.fix .tnb{color: #555;}
 .tnb li{
   width: 74px;
   text-align: center;
