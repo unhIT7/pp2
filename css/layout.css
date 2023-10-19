@@ -22,9 +22,9 @@
 .header.fix .inner{height: 80px;}
 .header .logo{
   width: 215px;height: 42px;
-  background: url(/img/f_logo.png) no-repeat center center / contain;
+  background: url(/pp2/img/f_logo.png) no-repeat center center / contain;
 }
-.header.fix .logo{background-image: url(/img/logo-color.png);}
+.header.fix .logo{background-image: url(/pp2/img/logo-color.png);}
 
 /* GNB - S */
 .gnb{
