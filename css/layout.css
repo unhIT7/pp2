@@ -130,6 +130,7 @@
   position: absolute; left: 0;
   transition: all 0.3s;
 }
+.header.fix .mobile-btn span{background-color: #333;}
 .mobile-btn span:nth-child(1){top: 0;}
 .mobile-btn span:nth-child(2){top: 8px;}
 .mobile-btn span:nth-child(3){top: 8px;}
